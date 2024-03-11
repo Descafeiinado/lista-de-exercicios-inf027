@@ -1,6 +1,8 @@
+/*
+* Dado o tamanho do raio de uma circunferência, calcular a área e o perímetro da mesma.
+*/
 #include <stdio.h>
-
-float PI = 3.14;
+#define PI 3.14
 
 void main() {
   float radius;
