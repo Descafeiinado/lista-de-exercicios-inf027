@@ -41,9 +41,9 @@ void main()
     } else {
         ms = ms == 0 ? sn1 : (ms >= 10) ? (sn1 * 100) + ms : (sn1 * 10) + ms;
     }
-    
-    printf("%d %d %d\n", fn1, fn2, fn3);
-    printf("%d %d %d\n", sn1, sn2, sn3);
+
+    if (mf == 0) mf = -1;
+    if (ms == 0) ms = -1;
     
     printf("%d e %d", mf, ms);
 }
